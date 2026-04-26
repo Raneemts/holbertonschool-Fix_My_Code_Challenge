@@ -2,7 +2,6 @@
 
 function printSquare(size) {
     if (isNaN(size) || size <= 0) {
-        console.log('Missing size');
         return;
     }
 
