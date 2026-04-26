@@ -1,0 +1,15 @@
+#!/usr/bin/node
+
+function printSquare(size) {
+    if (isNaN(size) || size <= 0) {
+        console.log('Missing size');
+        return;
+    }
+
+    for (let i = 0; i < size; i++) {
+        console.log('#'.repeat(size));
+    }
+}
+
+const size = parseInt(process.argv[2]);
+printSquare(size);
