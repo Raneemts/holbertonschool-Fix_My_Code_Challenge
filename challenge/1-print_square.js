@@ -11,5 +11,5 @@ function printSquare(size) {
     }
 }
 
-const size = parseInt(process.argv[2]);
+const size = parseInt(process.argv[2], 10);
 printSquare(size);
